@@ -1,0 +1,106 @@
+*{
+    background-color: aqua;
+  }
+  
+  
+  .flexBox{
+    
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 120px;
+    
+  }
+  .flexBox h1{
+    background-color: aliceblue;
+  }
+  .flexBox li{
+    list-style: none;
+    
+  }
+  .flexBox ul{
+    background-color: aliceblue;
+    
+  }
+  form{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .flexBox .buton1{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 9px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+  
+  }
+  .flexBox .buton1:hover{
+    background-color: rgb(166, 0, 255);
+    color: #ffffff;
+  }
+  .flexBox input{
+    background-color: aliceblue;
+    border: 1px solid rgb(201, 201, 201);
+    width: 350px;
+    height: 40px;
+    border-radius: 9px;
+    padding-left: 15px;
+  }
+  .deletBtn{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(165, 165, 165, 0)
+  }
+  .deletBtn:hover{
+   
+    
+  }
+  .deletBtn img{
+    background-color: #b0b0b0;
+    
+  }
+  .deletBtn img:hover{
+    
+  }
+  
+  .li{
+      background-color: #b0b0b0;
+    width: 400px;
+    height: 40px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #ffffff;
+    
+  }
+  .title{
+    margin-left: 35px;
+  }
+  
+  .clear{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(166, 0, 255);
+    color: #ffffff;
+    
+  }
+  .clear:hover{
+    background-color: red;
+
+  }
