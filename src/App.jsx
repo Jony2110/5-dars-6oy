@@ -23,7 +23,17 @@ const App = () => {
       addTodo(text);
       e.target.elements.todoText.value = '';
     }
+    
   };
+  const handleClear = (event) => {
+    setTodos([]);
+event.preventDefault();
+  };
+
+  const setTodoss = JSON.stringify(todos);
+    localStorage.setItem("todo:", setTodoss);
+
+
 
   return (
     <div className={styles.flexBox}>
@@ -42,7 +52,7 @@ const App = () => {
           
         ))}
       </ul>
-      <form><button type='submit' className={styles.clear}>Clear All</button></form>
+      <form><button onClick={handleClear} className={styles.clear}>Clear All</button></form>
     </div>
   );
 };
